@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20vh;
+    padding-top: 50px;
+    height: 200px;
+    background-color: gray;
+    position:static;
+    width: 100%;
+    
+}
+
+.footer2 {
+    
+}
