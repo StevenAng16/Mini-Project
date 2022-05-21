@@ -16,22 +16,24 @@ import { setToken } from '../token'
 
 
 
-const SIGNUP_MUTATION = gql`
-  mutation SignupMutation($email: String!, $password: String!, $name: String!) {
-    signup(email: $email, password: $password, name: $name) {
-      token
+const SIGNUP_MUTATION = gql `
+  query MyQuery($email: String, $password: String, $name: String) {
+    Signup_mutation(where :{name: {_eq: $name}}{email: {_eq: $email, password: {_eq: $password}}}) {
+      name
+      email
+      password
     }
   }
-`
+`;
 
 const LOGIN_MUTATION = gql`
   query MyQuery($email: String, $pasword: String) {
-    Login_mutation(where: {email: {_eq: $email, password: {_eq: $password}}) {
+    Login_mutation(where: {email: {_eq: $email, password: {_eq: $password}}}) {
     email
     password
   }
 }
-`
+`;
 
 const Login = props => {
   // Used to switch between login and signup

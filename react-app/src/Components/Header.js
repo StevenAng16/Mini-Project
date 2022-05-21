@@ -42,7 +42,7 @@ function Header () {
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                     <Nav.Link href="./Components/Login.js" ><FaSignInAlt icon="fa-solid fa-right-to-bracket" src={type1}/> Login</Nav.Link>
                     <Nav.Link href="./Components/Cart.js" ><FaShoppingCart icon="fa-solid fa-cart-shopping" src={type2}/> Shopping-Cart</Nav.Link>
-                    {/* <NavDropdown
+                    <NavDropdown
                         title="Dropdown"
                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
@@ -50,7 +50,7 @@ function Header () {
                         <NavDropdown.Item href="#action4">
                         Another action
                         </NavDropdown.Item>
-                    </NavDropdown> */}
+                    </NavDropdown>
                     </Nav>
                     <Form className="d-flex">
                     <FormControl
