@@ -105,7 +105,7 @@ function NintendoSwitchOLED () {
                       <ToggleButton id="tbg-radio-3" value={3} variant="outline-success">
                         Animal Crossing
                       </ToggleButton>
-                      <ToggleButton id="tbg-radio-3" value={4} variant="outline-danger">
+                      <ToggleButton id="tbg-radio-4" value={4} variant="outline-danger">
                         Mario Edition
                       </ToggleButton>
                     </ToggleButtonGroup>
