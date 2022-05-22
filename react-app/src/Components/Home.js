@@ -106,7 +106,7 @@ function Home () {
                 <Card className="card h-100">
                 <Button href="../Pages/playstationconsole.js" variant="primary" className='h-100'>
                     <Card.Img className='image' variant="top" src={category2} />
-                    <Card.Title><h6>PS WorkShop Home Consoles</h6></Card.Title>       
+                    <Card.Title><h6>PlayStation WorkShop Home Consoles</h6></Card.Title>       
                 </Button>
                     
                 </Card>
@@ -115,7 +115,7 @@ function Home () {
                 <Card className="card h-100">
                 <Button href="../Pages/playstationaccessories.js" variant="primary" className='h-100'>
                     <Card.Img className='image' variant="top" src={category5} />
-                    <Card.Title><h6>PS WorkShop Home Accessories</h6></Card.Title>
+                    <Card.Title><h6>PlayStation WorkShop Home Accessories</h6></Card.Title>
                 </Button>
                 </Card>
                 </Col>
