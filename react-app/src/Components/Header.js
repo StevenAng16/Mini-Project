@@ -25,7 +25,7 @@ import type2 from '../svg/cart-shopping-solid.svg'
 function Header () {
     return (
         <div className="navbar-wrapper container-wrapper">
-        {['md'].map((expand) => (
+        {['false'].map((expand) => (
             <Navbar key={expand} bg="secondary" variant="dark" expand={expand} >
             <Container>
                 <Navbar.Brand href="/" className="test">GameStation</Navbar.Brand>
@@ -42,8 +42,8 @@ function Header () {
                 </Offcanvas.Header>
                 <Offcanvas.Body className="justify-content-end">
                     <Nav className="flex-grow-2 pe-3">
-                    <NavLink className="navbar-brand text-dark" to="/Components/Login" ><FaSignInAlt icon="fa-solid fa-right-to-bracket" src={type1}/> Login</NavLink>{' '}
-                    <NavLink className="navbar-brand text-dark" to="/Components/Cart"><FaShoppingCart icon="fa-solid fa-cart-shopping" src={type2}/> Shopping-Cart</NavLink>
+                    <NavLink className="navbar-brand text-dark" style={{"fontSize":"medium"}} to="/Components/Login" ><FaSignInAlt icon="fa-solid fa-right-to-bracket" src={type1}/> Login</NavLink>{' '}
+                    <NavLink className="navbar-brand text-dark" style={{"fontSize":"medium"}} to="/Components/Cart"><FaShoppingCart icon="fa-solid fa-cart-shopping" src={type2}/> Shopping-Cart</NavLink>
                     <NavDropdown
                         title="Dropdown"
                         id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -73,6 +73,23 @@ function Header () {
             )
         }
 
+// function Header () {
+//     return (
+//         <nav className="navbar navbar-expand-lg navbar-dark bg-info w-100">
+//             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
+//             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+//             <div className='container'>
+//                 <Link to="/">
+//                     <p className='navbar-brand light'>Kelas E</p>
+//                 </Link>
+//                 <Link to="/login">
+//                     <p className='navbar-brand light'>Login</p>
+//                 </Link>
+//             </div>
+//         </nav>
+        
+//     )
+// }
 
 // 3) export function tersebut saya bisa di pake di component
 export default Header

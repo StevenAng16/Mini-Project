@@ -12,6 +12,8 @@ import type1 from "../../../image/Switch Games/Switch Mario Kart 8 Deluxe.png";
 // import type7 from "../../image";
 
 import {Counter} from "../../../features/counter/Counter";
+import { FaCartPlus } from "react-icons/fa";
+import icons1 from '../../../svg/cart-plus-solid.svg'
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -56,7 +58,7 @@ function MarioKart8Deluxe () {
                 <h1 className="ms-5">Rp 640,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="secondary">Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

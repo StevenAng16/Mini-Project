@@ -3,7 +3,11 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
-import type1 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
+
+// import type1 from "../../image/Nintendo Switch/Nintendo Switch.jpg";
+// import type2 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
+import type3 from "../../image/Nintendo Switch/Nintendo Switch (2).jpg";
+// import type4 from "../../image/Nintendo Switch/Nintendo Switch (3).jpg";
 // import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
 import AddToCart from '../../Props/AddToCart'
 
@@ -26,29 +30,7 @@ import icons1 from '../../svg/cart-plus-solid.svg'
 import './NintendoSwitch.css'
 // import '../../Components/Home.css'
 
-export default function NintendoSwitchNeon () {
-
-//   const onChange = (e) => {
-//     setData({...data,
-//         [e.target.name]: e.target.value,
-//     })
-//   }
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     const formIsNotEmpty = data.title
-//     if (formIsNotEmpty){
-//         const newData = { 
-//             title: data.title
-//         }
-//         props.tambahJudul(newData);
-//         setData({
-//             title: "",
-//         })
-//     } else {
-//         alert("Data masih ada yang kosong")
-//     }
-// }
+export default function NintendoSwitchGray () {
 
     return(
         <div className="container-fluid">
@@ -68,18 +50,18 @@ export default function NintendoSwitchNeon () {
             <h4 className="nintendo p-5">Nintendo Switch</h4>
               <div className="text-center">
                   <img
-                    className="img-thumbnail"
-                    src={type1}
-                    alt="First slide"
+                    className="text-center"
+                    src={type3}
+                    alt="Third slide"
                   />
               </div>
               <Row className="mt-3">
                 <Col>
-                <h1 className="ms-5">Rp 3,999,000</h1>
+                <h1 className="ms-5">Rp 4,099,000</h1>
                 </Col>
                 <Col>
                 <AddToCart/>
-                <Button variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
               </Row>
               
@@ -89,10 +71,10 @@ export default function NintendoSwitchNeon () {
                   <Row >
                     <Col sm={4}>
                     <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchNeon" active>
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchNeon">
                         Neon Blue-Red
                       </NavLink>
-                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray">
+                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray" active>
                         Gray
                       </NavLink>
                       <NavLink className="btn btn-outline-success text-dark" id="tbg-radio-3" value={3} to="/Products/Console/NintendoSwitchAnimalCrossing">

@@ -10,18 +10,17 @@ import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-
 const initialValue = [
     {
         id: uuidv4(),
+        image: "../image/Nintendo Switch OLED/Nintendo Switch Carousel.jpg",
         title: "Nintendo Switch OLED",
-        image: "../image/Nintendo Switch OLED/Nintendo Switch OLED.jpg",
 
     },
     {
         id: uuidv4(),
-        title: "Nintendo Switch JoyCon Controllers",
         image: "../image/JoyStick/Analog Cap.jpg",
+        title: "Nintendo Switch JoyCon Controllers",
     },
 ]
 
@@ -35,7 +34,7 @@ export default function Cart () {
        
     };
     return (
-    <>
+    <div>
     <Container fluid="sm">
     <Row>
         <Col sm={8}>
@@ -47,7 +46,7 @@ export default function Cart () {
         <Col sm={4}></Col>
     </Row>
     </Container>
-    </>
+    </div>
     )
     
 }

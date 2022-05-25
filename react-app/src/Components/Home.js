@@ -41,7 +41,7 @@ function Home () {
                         <Carousel.Caption>
                         <h3 >Xbox Series S/X</h3>
                         <p></p>
-                        <Button variant="outline-dark" href='../Product/Console/SeriesS.js'>Series S</Button>
+                        <Button variant="outline-dark" href='../Product/Console/SeriesS.js'>Series S</Button>{' '}
                         <Button variant="outline-dark" href='../Product/Console/SeriesX.js'>Series X</Button>
                         </Carousel.Caption>
                     </Carousel.Item>

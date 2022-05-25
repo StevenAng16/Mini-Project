@@ -20,12 +20,16 @@ import Tab from "react-bootstrap/Tab"
 import Table from 'react-bootstrap/Table'
 
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
-import ToggleButton from "react-bootstrap/ToggleButton";
+// import ToggleButton from "react-bootstrap/ToggleButton";
+import { NavLink } from "react-router-dom";
+
+import { FaCartPlus } from "react-icons/fa";
+import icons1 from '../../svg/cart-plus-solid.svg'
 
 import './NintendoSwitch.css'
 // import '../../Components/Home.css'
 
-function NintendoSwitchOLED () {
+function NintendoSwitch () {
 
     return(
         <div className="container-fluid">
@@ -43,7 +47,7 @@ function NintendoSwitchOLED () {
           </Routes>
     </Router> */}
             <h4 className="nintendo p-5">Nintendo Switch</h4>
-            <Carousel className="text-center" variant="dark">
+            <Carousel className="text-center">
                 <Carousel.Item>
                   <img
                     className="img-thumbnail"
@@ -86,7 +90,9 @@ function NintendoSwitchOLED () {
                 </Col>
                 <Col>
                 <AddToCart/>
-                <Button href="" variant="secondary">Add to Cart</Button>
+                <>
+                <Button href="#" variant="secondary" disabled><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                </>
                 </Col>
               </Row>
               
@@ -96,18 +102,18 @@ function NintendoSwitchOLED () {
                   <Row >
                     <Col sm={4}>
                     <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <ToggleButton id="tbg-radio-1" href="./NintendoSwitchNeon.js" value={1} variant="outline-info ">
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchNeon">
                         Neon Blue-Red
-                      </ToggleButton>
-                      <ToggleButton id="tbg-radio-2" value={2} variant="outline-secondary">
+                      </NavLink>
+                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray">
                         Gray
-                      </ToggleButton>
-                      <ToggleButton id="tbg-radio-3" value={3} variant="outline-success">
+                      </NavLink>
+                      <NavLink className="btn btn-outline-success text-dark" id="tbg-radio-3" value={3} to="/Products/Console/NintendoSwitchAnimalCrossing">
                         Animal Crossing
-                      </ToggleButton>
-                      <ToggleButton id="tbg-radio-4" value={4} variant="outline-danger">
+                      </NavLink>
+                      <NavLink className="btn btn-outline-danger text-dark" id="tbg-radio-4" value={4} to="/Products/Console/NintendoSwitchMarioEdition">
                         Mario Edition
-                      </ToggleButton>
+                      </NavLink>
                     </ToggleButtonGroup>
                     </Col>
                     <Col sm={8}>
@@ -213,4 +219,4 @@ function NintendoSwitchOLED () {
     )
 }
 
-export default NintendoSwitchOLED
+export default NintendoSwitch

@@ -3,9 +3,8 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
-import Carousel from "react-bootstrap/Carousel";
-import type1 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED.jpg";
-import type2 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (1).jpg";
+// import type1 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED.jpg";
+// import type2 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (1).jpg";
 import type3 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (2).jpg";
 
 import Button from "react-bootstrap/Button";
@@ -16,7 +15,7 @@ import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 import Table from 'react-bootstrap/Table'
 
-import ToggleButtonGroup from "react-bootstrap/esm/ToggleButtonGroup";
+import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import { NavLink } from "react-router-dom";
 
 import { FaCartPlus } from "react-icons/fa";
@@ -25,7 +24,7 @@ import icons1 from '../../svg/cart-plus-solid.svg'
 import './NintendoSwitchOLED.css'
 // import '../../Components/Home.css'
 
-export default function NintendoSwitchOLED () {
+export default function NintendoSwitchOLEDNeon () {
 
     return(
         <div className="container-fluid">
@@ -43,29 +42,13 @@ export default function NintendoSwitchOLED () {
           </Routes>
     </Router> */}
             <h4 className="nintendo p-5">Nintendo Switch OLED</h4>
-            <Carousel className="text-center" variant="dark">
-                <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type1}
-                    alt="First slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type2}
-                    alt="Second slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
+            <div className="text-center">
                   <img
                     className="img-thumbnail"
                     src={type3}
                     alt="Third slide"
                   />
-                </Carousel.Item>
-              </Carousel>
+              </div>
               <Row className="mt-3">
                 <Col>
                 <h1 className="ms-5">Rp 4,780,000</h1>

@@ -19,6 +19,8 @@ import Tab from "react-bootstrap/Tab"
 import Table from 'react-bootstrap/Table'
 
 import { Counter } from "../../../features/counter/Counter";
+import { FaCartPlus } from "react-icons/fa";
+import icons1 from '../../../svg/cart-plus-solid.svg'
 
 // import './ClubhouseGames51WorldwideClassics.css'
 // import '../../Components/Home.css'
@@ -54,7 +56,7 @@ function ClubhouseGames51WorldwideClassics () {
                 <h1 className="ms-5">Rp 300,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="secondary">Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

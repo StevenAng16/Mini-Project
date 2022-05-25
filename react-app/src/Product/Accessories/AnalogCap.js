@@ -26,6 +26,9 @@ import { Counter } from "../../features/counter/Counter";
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ToggleButton from "react-bootstrap/ToggleButton";
 
+import { FaCartPlus } from "react-icons/fa";
+import icons1 from '../../svg/cart-plus-solid.svg'
+
 import './AnalogCap.css'
 // import '../../Components/Home.css'
 
@@ -65,7 +68,7 @@ function AnalogCap () {
                 <h1 className="ms-5">Rp 20,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="danger">Add to Cart</Button>
+                <Button href="" variant="danger"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

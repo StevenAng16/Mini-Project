@@ -24,6 +24,9 @@ import Table from 'react-bootstrap/Table'
 
 import Image from 'react-bootstrap/Image'
 
+import { FaCartPlus } from "react-icons/fa";
+import icons1 from '../../svg/cart-plus-solid.svg'
+
 import './SeriesS.css'
 // import '../../Components/Home.css'
 
@@ -80,7 +83,7 @@ function SeriesS () {
                 <h1 className="ms-5">Rp 4,799,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="secondary">Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
               </Row>
               <div className="mt-5">
