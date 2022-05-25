@@ -16,7 +16,7 @@ import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 import Table from 'react-bootstrap/Table'
 
-import ToggleButtonGroup from "react-bootstrap/esm/ToggleButtonGroup";
+import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import { NavLink } from "react-router-dom";
 
 import { FaCartPlus } from "react-icons/fa";
@@ -79,10 +79,10 @@ export default function NintendoSwitchOLED () {
                   <Row >
                     <Col sm={4}>
                     <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-light-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDWhite">
+                      <NavLink className="btn btn-outline-light text-info" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDWhite">
                         White
                       </NavLink>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDNeon" active>
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDNeon" active>
                         Neon Blue-Red
                       </NavLink>
                     </ToggleButtonGroup>

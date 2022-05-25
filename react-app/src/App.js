@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Cart from './Components/Cart'
+import Cart from './Components/Cart';
 import Header from './Components/Header'
 import HomeApp from './Components/Home';
 import Login from './Components/Login';
@@ -18,10 +18,15 @@ import XboxConsole from './Pages/xboxconsole';
 import XboxGames from './Pages/xboxgames';
 
 import NintendoSwitch from './Product/Console/NintendoSwitch';
-import NintendoSwitchNeon from './Product/Console/NintendoSwitchNeon'
+import NintendoSwitchNeon from './Product/Console/NintendoSwitchNeon';
+import NintendoSwitchGray from './Product/Console/NintendoSwitchGray';
+import NintendoSwitchAnimalCrossing from './Product/Console/NintendoSwitchAnimalCrossing'
 
 import NintendoSwitchLite from './Product/Console/NintendoSwitchLite';
+
 import NintendoSwitchOLED from './Product/Console/NintendoSwitchOLED';
+import NintendoSwitchOLEDNeon from './Product/Console/NintendoSwitchOLEDNeon';
+import NintendoSwitchOLEDWhite from './Product/Console/NintendoSwitchOLEDWhite';
 
 import AdaptorCharger from './Product/Accessories/AdaptorCharger';
 import AdaptorChargerLoose from './Product/Accessories/AdaptorChargerLoose';
@@ -103,19 +108,23 @@ function App () {
     <>
     
     <Router>
-    <Header sticky="top"/>
+    <Header/>
           <Routes>
-            <Route path="/" element={<HomeApp />}>
-            
-            </Route>  
-            <Route path="/Components/Login.js" element={<Login />}/>
-            <Route path="/Components/Cart.js" element={<Cart />}/>  
+            <Route path="/" element={<HomeApp />}/>
+            <Route path="/Components/Login" element={<Login />}/>
+            <Route path="/Components/Cart" element={<Cart />}/>  
             
             <Route path="Pages/nintendoswitchconsole.js" exact element={<NintendoSwitchConsole />}/>
               <Route path="Product/Console/NintendoSwitch.js" exact element={<NintendoSwitch />}/>
-                  <Route path="NintendoSwitchNeon.js" element={<NintendoSwitchNeon/>}/> 
+                  <Route path="/Products/Console/NintendoSwitchNeon" element={<NintendoSwitchNeon/>}/> 
+                  <Route path="/Products/Console/NintendoSwitchGray" element={<NintendoSwitchGray/>}/>
+                  <Route path="/Products/Console/NintendoSwitchAnimalCrossing" element={<NintendoSwitchAnimalCrossing/>}/>
+                
               <Route path="Product/Console/NintendoSwitchLite.js" exact element={<NintendoSwitchLite />}/>
+
               <Route path="Product/Console/NintendoSwitchOLED.js" exact element={<NintendoSwitchOLED />}/>
+                  <Route path="Product/Console/NintendoSwitchOLEDNeon" exact element={<NintendoSwitchOLEDNeon />}/>
+                  <Route path="Product/Console/NintendoSwitchOLEDNeon" exact element={<NintendoSwitchOLEDWhite />}/>
 
             <Route path="Pages/nintendoswitchaccessories.js" exact element={<NintendoSwitchAccessories />}/>
                 <Route path="Product/Accessories/AdaptorCharger.js" exact element={<AdaptorCharger />}/>

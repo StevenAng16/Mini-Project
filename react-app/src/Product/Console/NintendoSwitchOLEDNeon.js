@@ -62,10 +62,10 @@ export default function NintendoSwitchOLEDNeon () {
                   <Row >
                     <Col sm={4}>
                     <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-light-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDWhite">
+                      <NavLink className="btn btn-outline-light text-info" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDWhite">
                         White
                       </NavLink>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDNeon" active>
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDNeon" active>
                         Neon Blue-Red
                       </NavLink>
                     </ToggleButtonGroup>

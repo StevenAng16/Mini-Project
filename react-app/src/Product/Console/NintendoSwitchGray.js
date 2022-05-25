@@ -50,7 +50,7 @@ export default function NintendoSwitchGray () {
             <h4 className="nintendo p-5">Nintendo Switch</h4>
               <div className="text-center">
                   <img
-                    className="text-center"
+                    className="img-thumbmail"
                     src={type3}
                     alt="Third slide"
                   />
