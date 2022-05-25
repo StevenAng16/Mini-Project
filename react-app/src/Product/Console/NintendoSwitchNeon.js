@@ -4,10 +4,7 @@
 // import Login from '../../Components/Login';
 
 import Carousel from "react-bootstrap/Carousel";
-import type1 from "../../image/Nintendo Switch/Nintendo Switch.jpg";
-import type2 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
-import type3 from "../../image/Nintendo Switch/Nintendo Switch (2).jpg";
-import type4 from "../../image/Nintendo Switch/Nintendo Switch (3).jpg";
+import type1 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
 // import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
 import AddToCart from '../../Props/AddToCart'
 
@@ -51,38 +48,10 @@ function NintendoSwitchOLED () {
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type2}
-                    alt="Second slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type3}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type4}
-                    alt="Fourth slide"
-                  />
-                </Carousel.Item>
-                {/* <Carousel.Item>
-                  <img
-                    className="img-thumbnail"
-                    src={type5}
-                    alt="Fifth slide"
-                  />
-                </Carousel.Item> */}
               </Carousel>
               <Row className="mt-3">
                 <Col>
-                <h1 className="ms-5">Rp 3,999,000 - Rp 4,899,000</h1>
+                <h1 className="ms-5">Rp 3,999,000</h1>
                 </Col>
                 <Col>
                 <AddToCart/>
@@ -95,8 +64,8 @@ function NintendoSwitchOLED () {
                 <Container fluid="sm">
                   <Row >
                     <Col sm={4}>
-                    <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <ToggleButton id="tbg-radio-1" href="./NintendoSwitchNeon.js" value={1} variant="outline-info ">
+                    <ToggleButtonGroup type="radio" name="options" Value={1} vertical>
+                      <ToggleButton id="tbg-radio-1" href="./NintendoSwitch.js" value={1} variant="outline-info ">
                         Neon Blue-Red
                       </ToggleButton>
                       <ToggleButton id="tbg-radio-2" value={2} variant="outline-secondary">

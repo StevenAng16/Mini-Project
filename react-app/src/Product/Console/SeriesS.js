@@ -45,7 +45,7 @@ function SeriesS () {
           </Routes>
     </Router> */}
             <h4 className="xbox p-5">Series S</h4>
-            <Carousel className="container">
+            <Carousel className="container text-center" variant="dark">
                 <Carousel.Item>
                   <img
                     className="d-block w-100"

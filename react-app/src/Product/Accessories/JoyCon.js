@@ -46,11 +46,11 @@ function JoyCon () {
     </Router> */}
             <h4 className="nintendo p-5">Nintendo Switch JoyCon Controllers</h4>
             <Container fluid="sm">
-            <div className="text-center ">
+            <div className="text-center">
             <Row>
               <Col md={2}></Col>
               <Col md={8}>
-            <Carousel className="container">
+            <Carousel className="container" variant="dark">
             <Carousel.Item>
               <img
                     className="img-thumbnail"

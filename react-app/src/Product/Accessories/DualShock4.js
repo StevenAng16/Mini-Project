@@ -40,7 +40,7 @@ function PS5 () {
             <h4 className="playstation p-5">DUALSHOCK®4 wireless controller Jet Black</h4>
             <Container fluid="sm">
             <div className="text-center">
-            <Carousel className="container">
+            <Carousel className="container" variant="dark">
             <Carousel.Item>
                   <img
                     className="img-thumbnail"

@@ -31,7 +31,7 @@ function Home () {
         <div className="home">
             <div className="container-fluid mt-3">
                 <h1>GameStation</h1>
-                <Carousel className='container'>
+                <Carousel className='container' variant="">
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
@@ -39,10 +39,10 @@ function Home () {
                         alt="First slide"
                         />
                         <Carousel.Caption>
-                        <h3>Xbox Series S/X</h3>
+                        <h3 >Xbox Series S/X</h3>
                         <p></p>
-                        Series S <Button variant="outline-dark" href='../Product/Console/SeriesS.js'>Click Here</Button>
-                        <Button variant="outline-dark" href='../Product/Console/SeriesX.js'>Click Here</Button>  Series X
+                        <Button variant="outline-dark" href='../Product/Console/SeriesS.js'>Series S</Button>
+                        <Button variant="outline-dark" href='../Product/Console/SeriesX.js'>Series X</Button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -54,7 +54,7 @@ function Home () {
                         <Carousel.Caption>
                         <h3>PS5 Spider Man Rilis</h3>
                         <p></p>
-                        <Button variant="outline-dark" href='../Product/Console/PS5.js'>Click Here</Button>
+                        <Button variant="outline-dark" href='../Product/Console/PS5.js'>PlayStation 5</Button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -66,7 +66,7 @@ function Home () {
                         <Carousel.Caption>
                         <h3>Nintendo Switch OLED</h3>
                         <p></p>
-                        <Button variant="outline-light" href='../Product/Console/NintendoSwitchOLED.js'>Click Here</Button>
+                        <Button variant="outline-light" href='../Product/Console/NintendoSwitchOLED.js'>OLED</Button>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

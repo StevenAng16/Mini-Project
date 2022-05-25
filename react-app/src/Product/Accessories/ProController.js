@@ -46,7 +46,7 @@ function ProController () {
             <h4 className="nintendo p-5">Nintendo Switch Pro Controller</h4>
             <Container fluid="sm">
             <div className="text-center">
-            <Carousel className="container">
+            <Carousel className="container" variant="dark">
             <Carousel.Item>
                 <img
                     className="img-thumbmail"

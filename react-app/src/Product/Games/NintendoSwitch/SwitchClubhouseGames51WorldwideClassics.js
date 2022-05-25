@@ -46,7 +46,7 @@ function ClubhouseGames51WorldwideClassics () {
             <h4 className="nintendo p-5">Switch Clubhouse Games: 51 Worldwide Classics (Mde/English)</h4>
             <div className="text-center">
              <img
-                    className=" d-block w-100"
+                    className=" img-thumbnail"
                     src={type1}
                     alt="First slide"
             />

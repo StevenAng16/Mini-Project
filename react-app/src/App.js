@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Cart from './Components/Cart'
 import Header from './Components/Header'
 import HomeApp from './Components/Home';
-// import Login from './Components/Login';
+import Login from './Components/Login';
 import Footer from './Components/Footer';
 
 import NintendoSwitchConsole from './Pages/nintendoswitchconsole';
@@ -100,14 +100,17 @@ function App () {
     //     </span>
     //   </header>
     // </div>
-
+    <>
+    
     <Router>
-      <Header/>
+    <Header sticky="top"/>
           <Routes>
-            <Route path="/" element={<HomeApp />}/>  
-            {/* <Route path="/Components/Login.js" element={<Login />}/> */}
-            <Route path="/Components/Cart.js" element={<Cart />}/>
-
+            <Route path="/" element={<HomeApp />}>
+            
+            </Route>  
+            <Route path="/Components/Login.js" element={<Login />}/>
+            <Route path="/Components/Cart.js" element={<Cart />}/>  
+            
             <Route path="Pages/nintendoswitchconsole.js" exact element={<NintendoSwitchConsole />}/>
               <Route path="Product/Console/NintendoSwitch.js" exact element={<NintendoSwitch />}/>
                   <Route path="NintendoSwitchNeon.js" element={<NintendoSwitchNeon/>}/> 
@@ -152,6 +155,8 @@ function App () {
           </Routes>
           <Footer/>
     </Router>
+    
+    </>
   );
 }
 

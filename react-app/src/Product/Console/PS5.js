@@ -43,7 +43,7 @@ function PS5 () {
           </Routes>
     </Router> */}
             <h4 className="playstation p-5">PlayStation 5</h4>
-            <Carousel className="container text-center">
+            <Carousel className="container text-center" variant="dark">
                 <Carousel.Item>
                   <img
                     className="d-block w-100"

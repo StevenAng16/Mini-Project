@@ -44,7 +44,7 @@ function NintendoSwitchOLED () {
           </Routes>
     </Router> */}
             <h4 className="nintendo p-5">Nintendo Switch Lite</h4>
-            <Carousel>
+            <Carousel className="text-center" variant="dark">
                 <Carousel.Item>
                   <img
                     className="img-thumbnail"

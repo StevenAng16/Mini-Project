@@ -21,6 +21,8 @@ import type14 from "../../image/X Series/X Series (14).jpg";
 import type15 from "../../image/X Series/X Series (15).jpg";
 import type16 from "../../image/X Series/X Series (16).jpg";
 
+import Card from 'react-bootstrap/Card'
+
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row'
@@ -52,7 +54,7 @@ function SeriesX () {
           </Routes>
     </Router> */}
             <h4 className="xbox p-5">Series X</h4>
-            <Carousel className="container">
+            <Carousel className="container text-center" variant="dark">
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -137,78 +139,97 @@ function SeriesX () {
                     </Row>
                     </Container><br/>
                       <p className="p-5">
-                      <Image
-                        className="d-block w-100"
-                        src={type8} 
-                      />
                       <h3>Power your dreams</h3>
                       Our fastest, most powerful console ever is designed 
                       for a console generation that has you, the player, 
                       at its center.
                       <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type9}
-                      />
-                      <h3>Split motherboard</h3>
-                      A split motherboard keeps the console’s internals 
-                      evenly temperature controlled, allowing for an even 
-                      higher output of power.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type10} 
-                      />
-                      <h3>Looks, sounds, plays better</h3>
-                      DirectX ray tracing delivers a heightened sensory 
-                      experience—and advantage—with hyper-dynamic living 
-                      worlds full of true-to-life lighting, shadows, 
-                      reflections, and acoustics.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type11}
-                      />
-                      <h3>Heat sink chassis</h3>
-                      This unique, non-electronic component merges parallel 
-                      cooling with innovative design to increase the reliability 
-                      and performance of the Xbox Series X.
-                      <br/><br/>
-                      <h3>Meet the new Xbox Wireless Controller</h3>
-                      <br/>
-                      Experience the modernized Xbox Wireless Controller, designed for enhanced comfort during gameplay.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type12}
-                      />
-                      <Image
-                        className="d-block w-100"
-                        src={type13}
-                      />
-                      <h3>Get a grip</h3>
-                      Stay on target with textured grips on the trigger and bumpers.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type14}
-                      />
-                      <h3>Full circle</h3>
-                      The hybrid D-pad offers players a familiar yet refined twist on the classic Xbox Wireless Controller.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type15}
-                      />
-                      <h3>Go ahead, show off</h3>
-                      Tap the dedicated Share button to seamlessly capture and eternalize your conquest.
-                      <br/><br/>
-                      <Image
-                        className="d-block w-100"
-                        src={type16}
-                      />
-                      <h3>Increased inventory, uncompromised performance</h3>
-                      The Seagate 1TB expansion card3 plugs into the back of the console via the dedicated expansion port and replicates the console’s custom SSD experience, providing additional game storage.
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type9} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Split motherboard</Card.Title>
+                          <Card.Text>
+                          A split motherboard keeps the console’s internals 
+                          evenly temperature controlled, allowing for an even 
+                          higher output of power.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type10} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Looks, sounds, plays better</Card.Title>
+                          <Card.Text>
+                          DirectX ray tracing delivers a heightened sensory 
+                          experience—and advantage—with hyper-dynamic living 
+                          worlds full of true-to-life lighting, shadows, 
+                          reflections, and acoustics.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type11} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Heat sink chassis</Card.Title>
+                          <Card.Text>
+                          This unique, non-electronic component merges parallel 
+                          cooling with innovative design to increase the reliability 
+                          and performance of the Xbox Series X.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type12} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Meet the new Xbox Wireless Controller</Card.Title>
+                          <Card.Text>
+                          Experience the modernized Xbox Wireless Controller, designed for enhanced comfort during gameplay.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type13} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Get a grip</Card.Title>
+                          <Card.Text>
+                          Stay on target with textured grips on the trigger and bumpers.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type14} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Full circle</Card.Title>
+                          <Card.Text>
+                          Stay on target with textured grips on the trigger and bumpers.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type15} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Go ahead, show off</Card.Title>
+                          <Card.Text>
+                          Tap the dedicated Share button to seamlessly capture and eternalize your conquest.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
+                        <br/>
+                        <Card className="bg-dark text-white">
+                        <Card.Img src={type16} className="img-thumbnail text-center" alt="Card image" />
+                        <Card.ImgOverlay>
+                          <Card.Title>Increased inventory, uncompromised performance</Card.Title>
+                          <Card.Text>
+                          The Seagate 1TB expansion card3 plugs into the back of the console via the dedicated expansion port and replicates the console’s custom SSD experience, providing additional game storage.
+                          </Card.Text>
+                        </Card.ImgOverlay>
+                        </Card>
                       </p>
                     </Tab>
                     <Tab eventKey="profile" title="Additional Information">
