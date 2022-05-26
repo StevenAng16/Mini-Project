@@ -3,12 +3,11 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
-
 // import type1 from "../../image/Nintendo Switch/Nintendo Switch.jpg";
 // import type2 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
-import type3 from "../../image/Nintendo Switch/Nintendo Switch (2).jpg";
+// import type3 from "../../image/Nintendo Switch/Nintendo Switch (2).jpg";
 // import type4 from "../../image/Nintendo Switch/Nintendo Switch (3).jpg";
-// import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
+import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
 import AddToCart from '../../Props/AddToCart'
 
 import Button from "react-bootstrap/Button";
@@ -21,7 +20,6 @@ import Table from 'react-bootstrap/Table'
 
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 // import ToggleButton from "react-bootstrap/ToggleButton";
-
 import { NavLink } from "react-router-dom";
 
 import { FaCartPlus } from "react-icons/fa";
@@ -30,7 +28,7 @@ import icons1 from '../../svg/cart-plus-solid.svg'
 import './NintendoSwitch.css'
 // import '../../Components/Home.css'
 
-export default function NintendoSwitchGray () {
+function NintendoSwitch () {
 
     return(
         <div className="container-fluid">
@@ -48,20 +46,22 @@ export default function NintendoSwitchGray () {
           </Routes>
     </Router> */}
             <h4 className="nintendo">Nintendo Switch</h4>
-              <div className="text-center">
+            <div className="text-center">
                   <img
-                    className="img-thumbmail"
-                    src={type3}
-                    alt="Third slide"
+                    className="img-thumbnail"
+                    src={type5}
+                    alt="Fifth slide"
                   />
               </div>
               <Row className="mt-3">
                 <Col>
-                <h1 className="ms-5">Rp 4,099,000</h1>
+                <h1 className="ms-5">Rp 4,899,000</h1>
                 </Col>
                 <Col>
                 <AddToCart/>
-                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <>
+                <Button href="#" variant="secondary" disabled><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                </>
                 </Col>
               </Row>
               
@@ -74,15 +74,15 @@ export default function NintendoSwitchGray () {
                       <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchNeon">
                         Neon Blue-Red
                       </NavLink>
-                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray" active>
+                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray">
                         Gray
                       </NavLink>
                       <NavLink className="btn btn-outline-success text-dark" id="tbg-radio-3" value={3} to="/Products/Console/NintendoSwitchAnimalCrossing">
                         Animal Crossing
                       </NavLink>
-                      {/* <NavLink className="btn btn-outline-danger text-dark" id="tbg-radio-4" value={4} to="/Products/Console/NintendoSwitchMarioEdition">
+                      <NavLink className="btn btn-outline-danger text-dark" id="tbg-radio-4" value={4} to="/Products/Console/NintendoSwitchMarioEdition">
                         Mario Edition
-                      </NavLink> */}
+                      </NavLink>
                     </ToggleButtonGroup>
                     </Col>
                     <Col sm={8}>
@@ -188,3 +188,4 @@ export default function NintendoSwitchGray () {
     )
 }
 
+export default NintendoSwitch

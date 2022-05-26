@@ -40,7 +40,7 @@ function PS5 () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="playstation p-5">DUALSHOCK®4 wireless controller Jet Black</h4>
+            <h4 className="playstation">DUALSHOCK®4 wireless controller Jet Black</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Carousel className="container" variant="dark">

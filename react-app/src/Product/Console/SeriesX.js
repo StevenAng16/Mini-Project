@@ -56,7 +56,7 @@ function SeriesX () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="xbox p-5">Series X</h4>
+            <h4 className="xbox">Series X</h4>
             <Carousel className="container text-center" variant="dark">
                 <Carousel.Item>
                   <img

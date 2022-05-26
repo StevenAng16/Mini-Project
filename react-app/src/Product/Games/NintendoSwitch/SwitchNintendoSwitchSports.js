@@ -45,7 +45,7 @@ function ClubhouseGames51WorldwideClassics () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Switch Nintendo Switch™ Sports (Mde/English) – PO Batch 3 [30 Juny 22]</h4>
+            <h4 className="nintendo">Switch Nintendo Switch™ Sports (Mde/English) – PO Batch 3 [30 Juny 22]</h4>
             <div className="text-center">
              <img
                     className="img-thumbnail"

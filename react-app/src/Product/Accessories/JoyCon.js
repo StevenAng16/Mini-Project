@@ -47,7 +47,7 @@ function JoyCon () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch JoyCon Controllers</h4>
+            <h4 className="nintendo">Nintendo Switch JoyCon Controllers</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Row>

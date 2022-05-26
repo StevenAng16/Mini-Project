@@ -46,7 +46,7 @@ export default function NintendoSwitchAnimalCrossing () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch</h4>
+            <h4 className="nintendo">Nintendo Switch</h4>
               <div className="text-center">
                   <img
                     className="img-thumbnail"

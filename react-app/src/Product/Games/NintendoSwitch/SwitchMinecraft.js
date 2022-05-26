@@ -44,7 +44,7 @@ function ClubhouseGames51WorldwideClassics () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Switch Minecraft</h4>
+            <h4 className="nintendo">Switch Minecraft</h4>
             <div className="text-center">
              <img
                     className="img-thumbnail"

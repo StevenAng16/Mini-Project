@@ -44,7 +44,7 @@ function MarioKart8Deluxe () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Switch Mario Kart 8 Deluxe</h4>
+            <h4 className="nintendo">Switch Mario Kart 8 Deluxe</h4>
             <div className="text-center">
              <img
                     className="img-thumbnail"

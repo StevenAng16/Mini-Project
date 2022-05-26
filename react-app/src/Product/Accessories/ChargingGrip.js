@@ -46,7 +46,7 @@ function ChargingGrip () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch JoyCon Charging Grip</h4>
+            <h4 className="nintendo">Nintendo Switch JoyCon Charging Grip</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Carousel className="container" variant="dark">

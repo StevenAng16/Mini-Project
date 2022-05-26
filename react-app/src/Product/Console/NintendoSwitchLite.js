@@ -46,7 +46,7 @@ function NintendoSwitchLite () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch Lite</h4>
+            <h4 className="nintendo">Nintendo Switch Lite</h4>
             <Carousel className="text-center" variant="dark">
                 <Carousel.Item>
                   <img

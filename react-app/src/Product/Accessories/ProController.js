@@ -46,7 +46,7 @@ function ProController () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch Pro Controller</h4>
+            <h4 className="nintendo">Nintendo Switch Pro Controller</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Carousel className="container" variant="dark">

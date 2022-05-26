@@ -43,7 +43,7 @@ function ClubhouseGames51WorldwideClassics () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Switch Yoshi’s Crafted World (Usa/English)</h4>
+            <h4 className="nintendo">Switch Yoshi’s Crafted World (Usa/English)</h4>
             <div className="text-center">
              <img
                     className="img-thumbnail"

@@ -42,7 +42,7 @@ export default function NintendoSwitchOLED () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch OLED</h4>
+            <h4 className="nintendo">Nintendo Switch OLED</h4>
             <Carousel className="text-center" variant="dark">
                 <Carousel.Item>
                   <img

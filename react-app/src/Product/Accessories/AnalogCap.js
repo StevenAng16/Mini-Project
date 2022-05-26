@@ -49,7 +49,7 @@ function AnalogCap () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Analog Cap – Analog Controller Thumb Grip for DualShock/DualSense/Pro Controller/XBOX Controller – 4 *Varian Color</h4>
+            <h4 className="nintendo">Analog Cap – Analog Controller Thumb Grip for DualShock/DualSense/Pro Controller/XBOX Controller – 4 *Varian Color</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Carousel className="container" variant="dark">

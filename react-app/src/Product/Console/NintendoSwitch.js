@@ -8,7 +8,7 @@ import type1 from "../../image/Nintendo Switch/Nintendo Switch.jpg";
 import type2 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
 import type3 from "../../image/Nintendo Switch/Nintendo Switch (2).jpg";
 import type4 from "../../image/Nintendo Switch/Nintendo Switch (3).jpg";
-// import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
+import type5 from "../../image/Nintendo Switch/Nintendo Switch (4).jpg";
 import AddToCart from '../../Props/AddToCart'
 
 import Button from "react-bootstrap/Button";
@@ -46,7 +46,7 @@ function NintendoSwitch () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch</h4>
+            <h4 className="nintendo">Nintendo Switch</h4>
             <Carousel className="text-center">
                 <Carousel.Item>
                   <img
@@ -76,13 +76,13 @@ function NintendoSwitch () {
                     alt="Fourth slide"
                   />
                 </Carousel.Item>
-                {/* <Carousel.Item>
+                <Carousel.Item>
                   <img
                     className="img-thumbnail"
                     src={type5}
                     alt="Fifth slide"
                   />
-                </Carousel.Item> */}
+                </Carousel.Item>
               </Carousel>
               <Row className="mt-3">
                 <Col>

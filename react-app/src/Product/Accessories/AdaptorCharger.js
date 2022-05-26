@@ -46,7 +46,7 @@ function AdaptorCharger () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch AC Adapter/Adaptor [Asia]</h4>
+            <h4 className="nintendo">Nintendo Switch AC Adapter/Adaptor [Asia]</h4>
             <Container fluid="sm">
             <div className="text-center">
               <Carousel className="container" variant="dark">

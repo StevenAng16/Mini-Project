@@ -43,7 +43,7 @@ function ClubhouseGames51WorldwideClassics () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Switch Mario + Rabbids Sparks Of Hope (English) – DP 2022</h4>
+            <h4 className="nintendo">Switch Mario + Rabbids Sparks Of Hope (English) – DP 2022</h4>
             <div className="text-center">
              <img
                     className="img-thumbnail"

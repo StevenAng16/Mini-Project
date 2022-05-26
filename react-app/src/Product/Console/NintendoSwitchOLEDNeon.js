@@ -41,7 +41,7 @@ export default function NintendoSwitchOLEDNeon () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo p-5">Nintendo Switch OLED</h4>
+            <h4 className="nintendo">Nintendo Switch OLED</h4>
             <div className="text-center">
                   <img
                     className="img-thumbnail"

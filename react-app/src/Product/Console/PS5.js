@@ -45,7 +45,7 @@ function PS5 () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="playstation p-5">PlayStation 5</h4>
+            <h4 className="playstation">PlayStation 5</h4>
             <Carousel className="container text-center" variant="dark">
                 <Carousel.Item>
                   <img
