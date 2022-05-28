@@ -7,7 +7,6 @@ const ListJudul = (props) => {
 
     return (
 <div>
-    
         <div>
             {/* <!-- CSS only --> */}
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
@@ -16,13 +15,10 @@ const ListJudul = (props) => {
             
             <table cellPadding="5px" cellSpacing="4px" style={{"width":"100%", "border":"1px solid black"}}>
                 <thead>
-                    <th>Name Product</th>
-                    <th>{" "}</th>
-                    <th>{" "}</th>
-                    <th>Action</th>
+                   <th>Harga</th>
                 </thead>
                 <tbody>
-                    {data.map((title) => <ListCart key={title.id} item ={title} hapusCart={hapusCart} />)}
+                    
                     
                 </tbody>
             </table>

@@ -71,7 +71,7 @@ function JoyCon () {
                 <h1 className="ms-5">Rp 919,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="danger"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
               <div className="mt-5">

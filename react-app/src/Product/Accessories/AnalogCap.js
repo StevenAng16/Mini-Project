@@ -49,7 +49,7 @@ function AnalogCap () {
             </Route>
           </Routes>
     </Router> */}
-            <h4 className="nintendo">Analog Cap – Analog Controller Thumb Grip for DualShock/DualSense/Pro Controller/XBOX Controller – 4 *Varian Color</h4>
+            <h4 className="nintendo playstation">Analog Cap – Analog Controller Thumb Grip for DualShock/DualSense/Pro Controller/XBOX Controller – 4 *Varian Color</h4>
             <Container fluid="sm">
             <div className="text-center">
             <Carousel className="container" variant="dark">
@@ -68,7 +68,7 @@ function AnalogCap () {
                 <h1 className="ms-5">Rp 20,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="danger"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

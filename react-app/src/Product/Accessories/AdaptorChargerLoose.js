@@ -72,7 +72,7 @@ function AdaptorChargerLoose () {
                 <h1 className="ms-5">Rp 350,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="danger"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

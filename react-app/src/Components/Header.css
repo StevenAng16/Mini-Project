@@ -1,0 +1,6 @@
+.navbar {
+    top : 0px;
+    position: sticky;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

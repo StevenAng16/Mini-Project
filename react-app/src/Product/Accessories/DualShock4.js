@@ -59,7 +59,7 @@ function PS5 () {
                 <h1 className="ms-5">Rp 799,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="primary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
             <Row className="mt-3">

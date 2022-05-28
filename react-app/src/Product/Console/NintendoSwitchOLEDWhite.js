@@ -3,6 +3,8 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
+import { useState } from "react";
+
 // import type1 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED.jpg";
 import type2 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (1).jpg";
 // import type3 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (2).jpg";
@@ -25,7 +27,8 @@ import './NintendoSwitchOLED.css'
 // import '../../Components/Home.css'
 
 export default function NintendoSwitchOLEDWhite () {
-
+  const [value, setValue] = useState([false]);
+  const handleChange = (val) => setValue(val);
     return(
         <div className="container-fluid">
           {/* <Router>
@@ -61,11 +64,11 @@ export default function NintendoSwitchOLEDWhite () {
                 <Container>
                   <Row >
                     <Col sm={4}>
-                    <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-outline-light text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDWhite" active>
+                    <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange} vertical>
+                      <NavLink className="btn btn-outline-light text-dark" id="tbg-btn-1" value={1} to="/Product/Console/NintendoSwitchOLEDWhite" active>
                         White
                       </NavLink>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDNeon">
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-btn-2" value={2} to="/Product/Console/NintendoSwitchOLEDNeon">
                         Neon Blue-Red
                       </NavLink>
                     </ToggleButtonGroup>

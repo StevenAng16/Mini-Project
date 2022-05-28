@@ -3,6 +3,8 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
+import { useState } from "react";
+
 import Carousel from "react-bootstrap/Carousel";
 import type1 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED.jpg";
 import type2 from "../../image/Nintendo Switch OLED/Nintendo Switch OLED (1).jpg";
@@ -26,7 +28,8 @@ import './NintendoSwitchOLED.css'
 // import '../../Components/Home.css'
 
 export default function NintendoSwitchOLED () {
-
+  const [value, setValue] = useState([false]);
+  const handleChange = (val) => setValue(val);
     return(
         <div className="container-fluid">
           {/* <Router>
@@ -71,18 +74,18 @@ export default function NintendoSwitchOLED () {
                 <h1 className="ms-5">Rp 4,780,000</h1>
                 </Col>
                 <Col>
-                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="#" variant="secondary" disabled><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
               </Row>
               <div className="mt-5">
                 <Container>
                   <Row >
                     <Col sm={4}>
-                    <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-outline-light text-info" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchOLEDWhite">
+                    <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange} vertical>
+                      <NavLink className="btn btn-outline-light text-info" id="tbg-btn-1" value={1} to="/Product/Console/NintendoSwitchOLEDWhite">
                         White
                       </NavLink>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchOLEDNeon" active>
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-btn-2" value={2} to="/Product/Console/NintendoSwitchOLEDNeon">
                         Neon Blue-Red
                       </NavLink>
                     </ToggleButtonGroup>

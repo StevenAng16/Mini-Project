@@ -3,6 +3,7 @@
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
 
+import { useState } from "react";
 
 // import type1 from "../../image/Nintendo Switch/Nintendo Switch.jpg";
 // import type2 from "../../image/Nintendo Switch/Nintendo Switch (1).jpg";
@@ -30,7 +31,8 @@ import './NintendoSwitch.css'
 // import '../../Components/Home.css'
 
 export default function NintendoSwitchAnimalCrossing () {
-
+  const [value, setValue] = useState([false]);
+  const handleChange = (val) => setValue(val);
     return(
         <div className="container-fluid">
           {/* <Router>
@@ -69,19 +71,19 @@ export default function NintendoSwitchAnimalCrossing () {
                 <Container fluid="sm">
                   <Row >
                     <Col sm={4}>
-                    <ToggleButtonGroup type="radio" name="options" Value={false} vertical>
-                      <NavLink className="btn btn-outline-info text-dark" id="tbg-radio-1" value={1} to="/Products/Console/NintendoSwitchNeon" >
+                    <ToggleButtonGroup type="checkbox" value={value} onChange={handleChange} vertical>
+                      <NavLink className="btn btn-outline-info text-dark" id="tbg-btn-1" value={1} to="/Product/Console/NintendoSwitchNeon" >
                         Neon Blue-Red
                       </NavLink>
-                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-radio-2" value={2} to="/Products/Console/NintendoSwitchGray">
+                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-btn-2" value={2} to="/Product/Console/NintendoSwitchGray">
                         Gray
                       </NavLink>
-                      <NavLink className="btn btn-outline-success text-dark" id="tbg-radio-3" value={3} to="/Products/Console/NintendoSwitchAnimalCrossing" active>
+                      <NavLink className="btn btn-outline-success text-dark" id="tbg-btn-3" value={3} to="/Product/Console/NintendoSwitchAnimalCrossing" active>
                         Animal Crossing
                       </NavLink>
-                      {/* <NavLink className="btn btn-outline-danger text-dark" id="tbg-radio-4" value={4} to="/Products/Console/NintendoSwitchMarioEdition">
+                      <NavLink className="btn btn-outline-danger text-dark" id="tbg-btn-4" value={4} to="/Product/Console/NintendoSwitchMarioEdition">
                         Mario Edition
-                      </NavLink> */}
+                      </NavLink>
                     </ToggleButtonGroup>
                     </Col>
                     <Col sm={8}>

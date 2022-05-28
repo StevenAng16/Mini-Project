@@ -1,21 +1,22 @@
 .footer {
-    display: flex;
+    bottom: 0;
+    display: block flex;
     flex-direction: row;
-    text-align:start;
-    justify-content: center;
-    margin-top: 0vh;
-    padding-top: 50px;
-    height: 300px;
+    text-align: start;
+    margin-top: ;
+    min-height: 20vw;
+    padding-top: 1rem;
+    height: 320px;
     background-color: gray;
-    position: absolute;
-    width: 100%;
+    position: sticky;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 }
 
 .footer2 {
+    bottom: 0;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1rem;
+    height: 50px;
     background-color: black;
     color: snow;
     position:static;
