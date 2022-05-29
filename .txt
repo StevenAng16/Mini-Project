@@ -25,3 +25,12 @@ We suggest that you begin by typing:
   npm start
 
 Happy hacking!
+
+
+Site Created
+
+Admin URL: https://app.netlify.com/sites/mini-project-27
+URL:       https://mini-project-27.netlify.app
+Site ID:   13de67da-a3d1-4735-9afe-cec59cf04dcf
+Logs:              https://app.netlify.com/sites/mini-project-27/deploys/62934dfe0bc618311a7d9f92
+Website Draft URL: https://62934dfe0bc618311a7d9f92--mini-project-27.netlify.app
