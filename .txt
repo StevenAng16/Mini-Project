@@ -40,3 +40,6 @@ Logs:
   https://app.netlify.com/sites/mini-project-27/deploys/6294e7f3f71d0a4a51eb42fb
 Website Draft URL: 
   https://6294e7f3f71d0a4a51eb42fb--mini-project-27.netlify.app
+
+Publish directory 
+  E:\STEVEN\KULIAH\SEMESTER 6\Task or Duty\Mini-Project\react-app\build
