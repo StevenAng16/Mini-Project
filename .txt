@@ -35,14 +35,14 @@ IP: 138.197.235.123
 Site Created
 
 Admin URL: 
-https://app.netlify.com/sites/mini-project-21  
+https://app.netlify.com/sites/Mini-Project-21
 URL:       
-https://mini-project-21.netlify.app
-Site ID:   c9277a3c-f277-47d9-9b5b-b606530e0fff
-Logs:             
-  https://app.netlify.com/sites/mini-project-27/deploys/6294e7f3f71d0a4a51eb42fb
+https://Mini-Project-21.netlify.app
+Site ID:   a9b5f5bf-ef04-452b-9974-bdabbb53520e
+Logs:              
+https://app.netlify.com/sites/mini-project-21/deploys/62959571ef6ded6967f6700c
 Website Draft URL: 
-  https://6294e7f3f71d0a4a51eb42fb--mini-project-27.netlify.app
+https://62959571ef6ded6967f6700c--mini-project-21.netlify.app
 
 Publish directory 
   E:\STEVEN\KULIAH\SEMESTER 6\Task or Duty\Mini-Project\react-app\build
