@@ -4,11 +4,11 @@
 // import Login from '../Components/Login';
 
 import React from 'react'
-import Button from 'react-bootstrap/Button'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import Container from 'react-bootstrap/Container'
+// import Button from 'react-bootstrap/Button'
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
+// import Card from 'react-bootstrap/Card'
+// import Container from 'react-bootstrap/Container'
 
 // import type1 from '';
 // import type2 from '';
@@ -34,8 +34,9 @@ function xboxgames() {
             </Route>
           </Routes>
     </Router> */}
-        <h4 className='mt-3'>Xbox Games</h4>
-        <Container fluid="sm">
+        <h4 className='mt-3'>Xbox Games</h4><br/><br/>
+        <h1>No Products</h1>
+        {/* <Container fluid="sm">
         <Row className='row row-cols-2 row-cols-md-3 p-5 g-4'>
         <Col>
         <Card className='h-100'>
@@ -78,7 +79,7 @@ function xboxgames() {
         </Card>
         </Col>
         </Row>
-        </Container>
+        </Container> */}
     <div className='mt-5'/>
     </div>
         

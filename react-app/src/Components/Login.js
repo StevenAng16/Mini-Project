@@ -9,8 +9,6 @@ import './Login.css'
 
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Header from './Header'
-import Footer from './Footer'
 
 
 // import React from 'react'
@@ -219,12 +217,10 @@ import Footer from './Footer'
 
 function Login () {
     <div className='login'>
-        <Header/>
                 <Row>
                    <Col sm={2}></Col>
                    <Col sm={8}>
                    <h4 className="mv3 mt-3"> Login</h4><br/><br/>
-
                    <Form>
                     <Form.Group className="flex flex-column mb-3" controlId="formBasicEmail">
                    <br/>
@@ -260,8 +256,7 @@ function Login () {
                     </Form>
                     </Col>
                     <Col sm={2}></Col>
-                </Row> 
-                <Footer/>       
+                </Row>     
             </div>
 }
 

@@ -21,7 +21,7 @@ import NintendoSwitch from './Product/Console/NintendoSwitch';
 import NintendoSwitchNeon from './Product/Console/NintendoSwitchNeon';
 import NintendoSwitchGray from './Product/Console/NintendoSwitchGray';
 import NintendoSwitchAnimalCrossing from './Product/Console/NintendoSwitchAnimalCrossing';
-import NintendoSwitchMarioEdition from './Product/Console/NintendoSwitchMarioEdition'
+import NintendoSwitchMarioEdition from './Product/Console/NintendoSwitchMarioEdition';
 
 import NintendoSwitchLite from './Product/Console/NintendoSwitchLite';
 
@@ -45,9 +45,12 @@ import MarioRabbidsSparksOfHope from './Product/Games/NintendoSwitch/SwitchMario
 import SuperMarioParty from './Product/Games/NintendoSwitch/SwitchMarioParty'
 import YoshiCraftedWorld from './Product/Games/NintendoSwitch/SwitchYoshiCraftedWorld'
 
-import PlayStation5 from './Product/Console/PS5';
+import PS5 from './Product/Console/PS5';
+import PS5InterDisc from './Product/Console/PS5InterDisc';
+import PS5InterDigital from './Product/Console/PS5InterDigital';
+import PS5IndoDisc from './Product/Console/PS5IndoDisc';
 
-import DualShock4 from './Product/Accessories/DualShock4'
+import DualShock4 from './Product/Accessories/DualShock4';
 
 import PS4Minecraft from './Product/Games/PlayStation/PS4Minecraft'
 import PS4MinecraftDungeons from './Product/Games/PlayStation/PS4MinecraftDungeons'
@@ -117,16 +120,16 @@ function App () {
             
             <Route path="Pages/nintendoswitchconsole.js" exact element={<NintendoSwitchConsole />}/>
               <Route path="Product/Console/NintendoSwitch.js" exact element={<NintendoSwitch />}/>
-                  <Route path="/Products/Console/NintendoSwitchNeon" element={<NintendoSwitchNeon/>}/> 
-                  <Route path="/Products/Console/NintendoSwitchGray" element={<NintendoSwitchGray/>}/>
-                  <Route path="/Products/Console/NintendoSwitchAnimalCrossing" element={<NintendoSwitchAnimalCrossing/>}/>
-                  <Route path="/Products/Console/NintendoSwitchMarioEdition" element={<NintendoSwitchMarioEdition/>}/>
+                  <Route path="/Product/Console/NintendoSwitchNeon" element={<NintendoSwitchNeon/>}/> 
+                  <Route path="/Product/Console/NintendoSwitchGray" element={<NintendoSwitchGray/>}/>
+                  <Route path="/Product/Console/NintendoSwitchAnimalCrossing" element={<NintendoSwitchAnimalCrossing/>}/>
+                  <Route path="/Product/Console/NintendoSwitchMarioEdition" element={<NintendoSwitchMarioEdition/>}/>
                 
               <Route path="Product/Console/NintendoSwitchLite.js" exact element={<NintendoSwitchLite />}/>
 
               <Route path="Product/Console/NintendoSwitchOLED.js" exact element={<NintendoSwitchOLED />}/>
-                  <Route path="Product/Console/NintendoSwitchOLEDNeon" element={<NintendoSwitchOLEDNeon />}/>
-                  <Route path="Product/Console/NintendoSwitchOLEDWhite" element={<NintendoSwitchOLEDWhite />}/>
+                  <Route path="/Product/Console/NintendoSwitchOLEDNeon" element={<NintendoSwitchOLEDNeon />}/>
+                  <Route path="/Product/Console/NintendoSwitchOLEDWhite" element={<NintendoSwitchOLEDWhite />}/>
 
             <Route path="Pages/nintendoswitchaccessories.js" exact element={<NintendoSwitchAccessories />}/>
                 <Route path="Product/Accessories/AdaptorCharger.js" exact element={<AdaptorCharger />}/>
@@ -147,8 +150,10 @@ function App () {
                 <Route path="Product/Games/NintendoSwitch/SwitchYoshiCraftedWorld.js" exact element={<YoshiCraftedWorld />}/>
 
             <Route path="Pages/playstationconsole.js" exact element={<PlayStationConsole />}/>
-                <Route path="Product/Console/PS5.js" exact element={<PlayStation5 />}/>
-                <Route path="PS5.js" exact element={<PlayStation5 />}/>
+                <Route path="Product/Console/PS5.js" exact element={<PS5 />}/>
+                    <Route path="/Product/Console/PS5InterDisc" element={<PS5InterDisc />}/>
+                    <Route path="/Product/Console/PS5InterDigital" element={<PS5InterDigital />}/>
+                    <Route path="/Product/Console/PS5IndoDisc" element={<PS5IndoDisc />}/>
 
             <Route path="Pages/playstationaccessories.js" exact element={<PlayStationAccessories />}/>
                 <Route path="Product/Accessories/AnalogCap.js" exact element={<AnalogCap />}/>

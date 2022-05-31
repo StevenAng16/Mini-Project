@@ -1,6 +1,6 @@
-// import { Routes, Route } from 'react-router-dom';
+// import { Router, Route } from 'react-router-dom';
 // import Cart from '../Components/Cart'
-// import HomeApp from '../Components/Home';
+// import SwitchConsole from '../Pages/nintendoswitchconsole';
 // import Login from '../Components/Login';
 
 import React from 'react'
@@ -21,18 +21,10 @@ function nintendoswitchconsole() {
     return(
     <div className='nintendo'>
         {/* <Router>
-          <Routes>
-            <Route path="/" exact element={<HomeApp />}>
-              <Route index element="Home"/>  
-            </Route>
-            <Route path="./Components/Login.js" element={<Login />}>
-                <Route element="Login"/>
-            </Route>
-            <Route path="./Components/Cart.js" element={<Cart />}>
-                <Route element="Cart"/>
-            </Route>
-          </Routes>
-    </Router> */}
+            <Route path="/" exact element={<SwitchConsole />}/>
+            <Route path="./Components/Login.js" element={<Login />}/>
+            <Route path="./Components/Cart.js" element={<Cart />}/>
+        </Router> */}
         <h4 className='mt-3'>Nintendo Switch Console</h4>
         <Container fluid="sm">
         <Row className='row row-cols-2 row-cols-md-3 p-5 g-4'>

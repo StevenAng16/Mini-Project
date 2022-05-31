@@ -1,4 +1,4 @@
-// import { BrowserRounter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Cart from '../../Components/Cart'
 // import HomeApp from '../../Components/Home';
 // import Login from '../../Components/Login';
@@ -30,7 +30,7 @@ import icons1 from '../../svg/cart-plus-solid.svg'
 import './PS5.css'
 // import '../../Components/Home.css'
 
-export default function PS5 () {
+export default function PS5InterDigital () {
   const [value, setValue] = useState([false]);
   const handleChange = (val) => setValue(val);
     return(
@@ -95,11 +95,11 @@ export default function PS5 () {
               </Carousel>
               <Row className="mt-3">
                 <Col>
-                <p className="ms-5"><s>Rp11.499.000 - Rp14.999.000</s></p>
-                <h1 className="ms-5">Rp 9,545,000 - Rp 12,999,000</h1>
+                <p className="ms-5"><s>Rp11.499.000</s></p>
+                <h1 className="ms-5">Rp 9,545,000</h1>
                 </Col>
                 <Col>
-                <Button href="#" variant="secondary" disabled><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
+                <Button href="" variant="secondary"><FaCartPlus icon="fa-solid fa-cart-plus" src={icons1}/> Add to Cart</Button>
                 </Col>
             </Row>
               <div className="mt-5">
@@ -110,7 +110,7 @@ export default function PS5 () {
                       <NavLink className="btn btn-outline-secondary text-dark" id="tbg-btn-1" value={1} to="Product/Console/PS5InterDisc">
                         Inter Disc
                       </NavLink>
-                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-btn-2" value={2} to="Product/Console/PS5InterDigital">
+                      <NavLink className="btn btn-outline-secondary text-dark" id="tbg-btn-2" value={2} to="Product/Console/PS5InterDigital" active>
                         Inter Digital
                       </NavLink>
                       <NavLink className="btn btn-outline-secondary text-dark" id="tbg-btn-3" value={3} to="Product/Console/PS5IndoDisc">

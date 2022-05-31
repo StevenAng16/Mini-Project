@@ -26,23 +26,6 @@ We suggest that you begin by typing:
 
 Happy hacking!
 
+Success! - Published to 
+jobless-meal.surge.sh
 
-encryption: *.surge.sh, surge.sh (352 days)
-IP: 138.197.235.123
-
-   Success! - Published to seemly-quicksand.surge.sh
-
-Site Created
-
-Admin URL: 
-https://app.netlify.com/sites/Mini-Project-21
-URL:       
-https://Mini-Project-21.netlify.app
-Site ID:   a9b5f5bf-ef04-452b-9974-bdabbb53520e
-Logs:              
-https://app.netlify.com/sites/mini-project-21/deploys/62959571ef6ded6967f6700c
-Website Draft URL: 
-https://62959571ef6ded6967f6700c--mini-project-21.netlify.app
-
-Publish directory 
-  E:\STEVEN\KULIAH\SEMESTER 6\Task or Duty\Mini-Project\react-app\build
