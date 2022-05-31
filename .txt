@@ -27,15 +27,18 @@ We suggest that you begin by typing:
 Happy hacking!
 
 
-Success! - Published to certain-action.surge.sh
+encryption: *.surge.sh, surge.sh (352 days)
+IP: 138.197.235.123
+
+   Success! - Published to seemly-quicksand.surge.sh
 
 Site Created
 
 Admin URL: 
-  https://app.netlify.com/sites/mini-project-27
+https://app.netlify.com/sites/mini-project-21  
 URL:       
-  https://mini-project-27.netlify.app
-Site ID:   1d21f890-4448-4df1-b63e-aa5713b22988
+https://mini-project-21.netlify.app
+Site ID:   c9277a3c-f277-47d9-9b5b-b606530e0fff
 Logs:             
   https://app.netlify.com/sites/mini-project-27/deploys/6294e7f3f71d0a4a51eb42fb
 Website Draft URL: 
