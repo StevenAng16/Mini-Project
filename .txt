@@ -28,3 +28,10 @@ Happy hacking!
 
 Success! - Published to trite-death.surge.sh
 
+Site Created
+
+Admin URL         : https://app.netlify.com/sites/mini-project-27
+URL               : https://mini-project-27.netlify.app
+Site ID           : 4f75c6c1-4a4f-40f8-856c-feb87645edc6
+Logs              : https://app.netlify.com/sites/mini-project-27/deploys/629987ce486d3414ecfc92d7
+Website Draft URL : https://629987ce486d3414ecfc92d7--mini-project-27.netlify.app
