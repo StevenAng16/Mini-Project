@@ -26,7 +26,7 @@ We suggest that you begin by typing:
 
 Happy hacking!
 
-Success! - Published to trite-death.surge.sh
+Success! - Published to busy-cast.surge.sh
 
 Site Created
 
