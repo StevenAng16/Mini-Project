@@ -32,6 +32,6 @@ Site Created
 
 Admin URL         : https://app.netlify.com/sites/mini-project-27
 URL               : https://mini-project-27.netlify.app
-Site ID           : 4f75c6c1-4a4f-40f8-856c-feb87645edc6
-Logs              : https://app.netlify.com/sites/mini-project-27/deploys/629987ce486d3414ecfc92d7
-Website Draft URL : https://629987ce486d3414ecfc92d7--mini-project-27.netlify.app
+Site ID           : 944e82a0-4229-4793-afe6-bf81f32960eb
+Logs              : https://app.netlify.com/sites/mini-project-27/deploys/62998b92c2551d17aa146773
+Website Draft URL : https://62998b92c2551d17aa146773--mini-project-27.netlify.app  
