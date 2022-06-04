@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import {MDBFooter} from 'mdb-react-ui-kit'
+// import {MDBFooter} from 'mdb-react-ui-kit'
 import "./Footer.css"
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import type1 from '../svg/facebook-brands.svg';
