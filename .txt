@@ -33,7 +33,8 @@ Site Created
 Admin URL         : https://app.netlify.com/sites/mini-project-27
 URL               : https://mini-project-27.netlify.app
 Site ID           : 1a7f12c6-9ebe-4687-8ee4-78ce8efff1e4
-Logs              : https://app.netlify.com/sites/mini-project-27/deploys/629ac8aa54132120ed8f79a7
-Website Draft URL : https://629ac8aa54132120ed8f79a7--mini-project-27.netlify.app
+Logs              : https://app.netlify.com/sites/mini-project-27/deploys/629ad2477ea535263269c528
+Unique Deploy URL : https://629ad2477ea535263269c528--mini-project-27.netlify.app  
+Website URL       : https://mini-project-27.netlify.app
 
  Publish directory E:\STEVEN\KULIAH\SEMESTER 6\Task or Duty\Mini-Project\react-app\build
