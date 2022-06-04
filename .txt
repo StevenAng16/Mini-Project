@@ -26,11 +26,11 @@ We suggest that you begin by typing:
 
 Happy hacking!
 
-Success! - Published to busy-cast.surge.sh
+Success! - Published to hapless-girl.surge.sh
 
 Site Created
 
-Admin URL         : https://app.netlify.com/sites/mini-project-27
+Admin URL         : htStps://app.netlify.com/sites/mini-project-27
 URL               : https://mini-project-27.netlify.app
 Site ID           : 944e82a0-4229-4793-afe6-bf81f32960eb
 Logs              : https://app.netlify.com/sites/mini-project-27/deploys/62999507486d341d65fc9365
