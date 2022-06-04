@@ -30,10 +30,10 @@ Success! - Published to hapless-girl.surge.sh
 
 Site Created
 
-Admin URL         : htStps://app.netlify.com/sites/mini-project-27
+Admin URL         : https://app.netlify.com/sites/mini-project-27
 URL               : https://mini-project-27.netlify.app
-Site ID           : 944e82a0-4229-4793-afe6-bf81f32960eb
-Logs              : https://app.netlify.com/sites/mini-project-27/deploys/62999507486d341d65fc9365
-Website Draft URL : https://62999507486d341d65fc9365--mini-project-27.netlify.app
+Site ID           : 1a7f12c6-9ebe-4687-8ee4-78ce8efff1e4
+Logs              : https://app.netlify.com/sites/mini-project-27/deploys/629ac8aa54132120ed8f79a7
+Website Draft URL : https://629ac8aa54132120ed8f79a7--mini-project-27.netlify.app
 
  Publish directory E:\STEVEN\KULIAH\SEMESTER 6\Task or Duty\Mini-Project\react-app\build
